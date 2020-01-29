@@ -21,6 +21,8 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: Settings
+      run: cat settings.xml
     - name: Build libgit2
       run: make install
     - name: Build Jagged
