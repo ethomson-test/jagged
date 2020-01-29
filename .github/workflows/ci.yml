@@ -30,4 +30,4 @@ jobs:
     - name: Build Jagged
       run: mvn -B package
     - name: Upload to GitHub Packages
-      run: mvn deploy -Dgithub.username=${{github.actor}} -Dgithub.password=${{github.token}} -s settings.xml
+      run: mvn deploy
