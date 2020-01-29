@@ -22,7 +22,9 @@ jobs:
       with:
         java-version: 1.8
     - name: Settings
-      run: cat settings.xml
+      run: |
+        ls -FlasR settings.xml
+        cat settings.xml
     - name: Build libgit2
       run: make install
     - name: Build Jagged
