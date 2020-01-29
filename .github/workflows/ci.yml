@@ -24,7 +24,7 @@ jobs:
     - name: Settings
       run: |
         find . -iname settings.xml -print
-        cat settings.xml
+        cat ~/.m2/settings.xml
     - name: Build libgit2
       run: make install
     - name: Build Jagged
