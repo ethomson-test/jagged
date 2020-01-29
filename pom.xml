@@ -95,7 +95,7 @@
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/ethomson/jagged</url>
+            <url>https://maven.pkg.github.com/ethomson-test/jagged</url>
         </repository>
     </distributionManagement>
 </project>
